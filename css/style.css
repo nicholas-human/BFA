@@ -1,0 +1,240 @@
+	body{
+
+		background-image:url('../backgroundglitch.png');
+		background-attachment: fixed;
+		background-color: #000000;
+		background-size: contain;
+
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font-size: 15px;
+		line-height: 1.5;
+		font-style: normal;
+		font-weight: 400;
+		font-variant: normal;
+		color: #5CB0AF;
+
+		padding: 0;
+		margin: 0;
+
+	}
+
+	/* GLobal */
+	.container{
+		width:auto;
+		margin:auto;
+
+		overflow:hidden;
+	}
+
+
+	/* Header **/
+	header{
+		background: transparent;
+		padding-top:0px;
+		padding-bottom:0px;
+		min-height: 70px;
+	}
+
+	header a{
+		color:inherit;
+		text-decoration: inherit;
+		text-decoration-color: inherit
+	}
+
+	header ul{
+		margin:0;
+		padding-top: 20px;
+		padding-left: 1px;
+
+	}
+
+	header li{
+		float: inherit;
+		display: inherit;
+		padding: 0px 0px 0px 0px;
+
+		padding-top: 1;
+	}
+
+				header #top{
+					color: rgba(255,255,255,1.00);
+					font-style: normal;
+					font-variant: small-caps;
+					font-weight: bolder;
+					font-size: 155%;
+					line-height: 2;
+					text-align: right;
+					text-decoration: line-through;
+					text-decoration-style: solid;
+					text-decoration-color: #000000;
+					text-transform: none;
+					letter-spacing: 103px;
+					white-space: normal;
+					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					word-spacing: 5em;
+					text-shadow:46px -8px rgba(255,255,255,0.73);
+					padding-right: 0px;
+					min-width: 140px;
+				}
+
+
+			 	header #low{
+
+					color: rgba(255,255,255,1.00);
+					font-style: normal;
+					font-variant: small-caps;
+					font-weight: bolder;
+					font-size: 155%;
+					line-height: 2;
+					text-align: left;
+					text-decoration: line-through;
+					text-decoration-style: solid;
+					text-decoration-color: #000000;
+					text-transform: none;
+					margin-left: none;
+					letter-spacing: 103px;
+					white-space: normal;
+					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					word-spacing: 5em;
+					text-shadow:46px -8px rgba(255,255,255,0.73);
+					padding-right: 0px;
+					padding-left: 0px;
+					padding-bottom: 30px;
+					min-width: 300px;
+					min-height: 30px;
+					position: relative;
+				}
+
+
+				header #name{
+					color: #FFFFFF;
+					font-style: oblique;
+					font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+					font-weight: lighter;
+					font-size: 3em;
+					letter-spacing: 28.5mm;
+					text-decoration: line-through;
+					text-decoration-style: solid;
+					text-decoration-color: #191B24;
+					text-indent: 10px;
+					margin: 0;
+					padding: 0;
+					text-align: left;
+
+
+
+				}
+								/*Banner Background**/
+				section #name{
+					background-image:url('../img/home-img/bannerglitch.png');
+					background-position: 5px 2px;
+					background-attachment: fixed;
+
+	}
+
+
+	nav a{
+		text-decoration: none;
+		color:inherit;
+		text-decoration-color:inherit;
+		indent:none;
+
+
+	}
+
+
+
+	h1{
+
+		padding-right: none;
+
+
+	}
+
+	section #artist{
+		float: none;
+		display: block;
+		background: transparent;
+		padding-top:0px;
+		padding-bottom:0px;
+		min-height: 70px;
+		text-decoration:line-through;
+		text-decoration-style: double;
+		text-decoration-color: #191B24;
+		text-indent: inherit;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: Helvetica;
+		font-weight: lighter;
+		letter-spacing: 10px;
+		font-size: 1.5em;
+		color: #ffffff;
+		display: inline;
+
+	}
+
+	section #ongoing{
+		float:none;
+		position: relative;
+		background: transparent;
+		padding-top:0px;
+		padding-bottom:0px;
+		min-height: 70px;
+		text-decoration:line-through;
+		text-decoration-style: double;
+		text-decoration-color: #191B24;
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: Helvetica;
+		font-weight: lighter;
+		letter-spacing: 10px;
+		font-size: 1.5em;
+		color: #ffffff;
+	}
+
+				/*div defaults**/
+div{
+	text-align: center;
+
+}
+
+
+	div #work{
+		float:none;
+		position: static;
+		background: transparent;
+
+
+		min-height: 70px;
+		font-style: oblique;
+		font-size: 2em;
+		color: #72D79D;
+		text-decoration:line-through;
+		text-decoration-style: double;
+		text-decoration-color: #191B24;
+
+		font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+		font: Helvetica;
+		font-weight: lighter;
+		letter-spacing: 40px;
+
+		color: #72D79D;
+		padding: none;
+	}
+
+/*footer defaults**/
+	footer{
+		text-align: center;
+		font-weight: bold;
+		word-spacing: 10px;
+	}
+
+	p a{
+		text-decoration: none;
+		color: #5CB0AF;
+		text-decoration-color:inherit;
+		indent:none;
+
+	}
+
+	div #homebody{
+		display: none;
+	}
